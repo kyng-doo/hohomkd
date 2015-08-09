@@ -14,11 +14,10 @@
 	<script src="/assets/js/jquery-1.7.2.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script type="text/javascript">
-	
+
 	</script>
 </head>
 <body>
-
 <div id="container">
 	<!-- header -->
 	<header id="header" data-role="header" data-position="fixed">
