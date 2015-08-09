@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry kind="lib" path="mooonkyungdoo/Documents/home/CI_CodeBase/js/jquery-1.7.2.min.js"/>
+	<classpathentry kind="con" path="org.eclipselabs.jsdt.jquery.core.CoflictLibrary_1.8"/>
 	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.baseBrowserLibrary"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.InternetExplorer"/>
 	<classpathentry kind="output" path=""/>
 </classpath>

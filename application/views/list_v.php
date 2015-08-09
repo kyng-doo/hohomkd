@@ -1,5 +1,4 @@
 
-	
 	<!-- borad_area -->
 	<article id="bord_area" >
 		<header>

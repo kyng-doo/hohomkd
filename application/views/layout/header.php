@@ -20,7 +20,6 @@
 <body>
 
 <div id="container">
-
 	<!-- header -->
 	<header id="header" data-role="header" data-position="fixed">
 		<blockquote>
