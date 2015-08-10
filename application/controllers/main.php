@@ -4,7 +4,6 @@ class Main extends CI_Controller
 {
 	function __construct()
 	{
-		
 		parent::__construct();
 		$this->load->database();
 		$this->load->model('todo_m');
@@ -27,7 +26,6 @@ class Main extends CI_Controller
 		if($id === -1)
 		{
 			alertMsg("게시물이 없습니다.", "/main/lists/");
-			
 			return;
 		}
 		
@@ -37,6 +35,20 @@ class Main extends CI_Controller
 	
 	public function write()
 	{
-		$this->load->layout('list_w', null);
+		if( $_POST )
+		{
+			$content = $this->input->post('content', TRUE);
+			$created_on = $this->input->post('created_on', TRUE);
+			$due_date = $this->input->post('due_date', TRUE);
+
+			$this->todo_m->insert_todo($content, $created_on, $due_date);
+			redirect('/main/');
+			exit;
+		}
+		else 
+		{
+			$this->load->layout('list_w', null);	
+		}
+		
 	}
 }
